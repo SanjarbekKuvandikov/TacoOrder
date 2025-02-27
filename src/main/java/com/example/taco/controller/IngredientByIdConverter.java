@@ -1,9 +1,7 @@
 package com.example.taco.controller;
 
 import com.example.taco.data.Ingredient;
-import com.fasterxml.jackson.databind.JavaType;
-import com.fasterxml.jackson.databind.type.TypeFactory;
-import com.fasterxml.jackson.databind.util.Converter;
+import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
@@ -39,16 +37,6 @@ public class IngredientByIdConverter implements Converter<String, Ingredient> {
     @Override
     public Ingredient convert(String id) {
         return ing_map.get(id);
-    }
-
-    @Override
-    public JavaType getInputType(TypeFactory typeFactory) {
-        return null;
-    }
-
-    @Override
-    public JavaType getOutputType(TypeFactory typeFactory) {
-        return null;
     }
 
 }
