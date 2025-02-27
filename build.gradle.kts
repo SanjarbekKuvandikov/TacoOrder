@@ -25,8 +25,9 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
-	// https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf
 	implementation ("org.springframework.boot:spring-boot-starter-thymeleaf")
+
+	implementation("ch.qos.logback:logback-classic")
 
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
