@@ -29,6 +29,10 @@ dependencies {
 
 	implementation("ch.qos.logback:logback-classic")
 
+	//validation
+	implementation("org.springframework.boot:spring-boot-starter-validation:3.4.2")
+
+
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
