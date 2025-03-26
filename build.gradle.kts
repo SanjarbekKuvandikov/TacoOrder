@@ -32,6 +32,9 @@ dependencies {
 	//validation
 	implementation("org.springframework.boot:spring-boot-starter-validation:3.4.2")
 
+	// https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+	implementation("org.springframework:spring-jdbc:6.2.3")
+
 
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
