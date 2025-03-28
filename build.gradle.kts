@@ -29,15 +29,21 @@ dependencies {
 
 	implementation("ch.qos.logback:logback-classic")
 
-	//validation
+	// Validation
 	implementation("org.springframework.boot:spring-boot-starter-validation:3.4.2")
 
-	// https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+	// Spring JDBC
 	implementation("org.springframework:spring-jdbc:6.2.3")
+	// spring-boot-starter-jdbc
+	implementation("org.springframework.boot:spring-boot-starter-jdbc:3.4.4")
 
+	// H2 Database
+	runtimeOnly("com.h2database:h2")
 
+	//Lombok
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
