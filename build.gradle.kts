@@ -36,6 +36,8 @@ dependencies {
 	implementation("org.springframework:spring-jdbc:6.2.3")
 	// spring-boot-starter-jdbc
 	implementation("org.springframework.boot:spring-boot-starter-jdbc:3.4.4")
+	// starter-data-jdbc
+	implementation("org.springframework.boot:spring-boot-starter-data-jdbc:3.4.1")
 
 	// H2 Database
 	runtimeOnly("com.h2database:h2")
