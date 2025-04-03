@@ -1,4 +1,4 @@
-package com.example.taco.repository;
+/*package com.example.taco.repository;
 
 import com.example.taco.data.Ingredient;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -49,4 +49,4 @@ public class JdbcIngredientRepository implements IngredientRepository {
                 Ingredient.Type.valueOf(row.getString("type"))
         );
     }
-}
+}*/

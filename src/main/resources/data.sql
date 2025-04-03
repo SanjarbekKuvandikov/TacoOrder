@@ -1,4 +1,4 @@
-delete from Ingredient_Ref;
+/*delete from Ingredient_Ref;
 delete from Taco;
 delete from Taco_order;
 
@@ -29,3 +29,4 @@ values ('SLSA', 'Salsa', 'SAUCE');
 
 insert into Ingredient (id, name, type)
 values ('SRCR', 'Sour Cream', 'SAUCE');
+*/
